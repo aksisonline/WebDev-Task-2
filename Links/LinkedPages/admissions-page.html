@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../style.css">
+	<title>admissionspage</title>
+    <style type="text/css">
+        th,td {
+            text-align: center;
+        }
+
+        body {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+	        <table> 
+            <tr>
+                <th>Name:</th>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td><input type="Email" name="Email"></td>
+            </tr>
+            <tr>
+                <th>Phone Number</th>
+                <td><input type="text" name="Phone"></td>
+            </tr>
+            <tr>
+                <td><b>Receive Updates via Phone/Email</b><br>Click on button or text to check/uncheck</td>
+                <td><input type="checkbox" name="approve">Do You Approve?</td>
+            </tr>
+
+            <tr>
+                <td><b>Pick Your Game</b><br>Click on the button or text to select</td>
+                <td>
+                    <input type="radio" name="fav" value="A"> Valorant <br>
+                    <input type="radio" name="fav" value="B"> Overwatch 2 <br>
+                    <input type="radio" name="fav" value="C"> The FINALS <br>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Servers</th>
+                <td><select name="states">
+                    <option value="1">EU</option>
+                    <option value="2">NA</option>
+                    <option value="3">ASIA</option>
+                    <option value="4">SA</option>
+                </select></td>
+            </tr>
+            <tr>
+                <th> </th>
+                <td><input type="button" class="button" name="submit" value="Submit"></td>
+            </tr>
+        </table>
+</body>
+</html>
